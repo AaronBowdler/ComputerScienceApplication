@@ -83,7 +83,7 @@ $('#quiz').quiz({
         'incorrectResponse': 'Please dont tell me you clicked, "Time Machines"?'
       },
       {
-        'q': 'True or False "+Most video cards are not limited to simple display output?',
+        'q': 'True or False "Most video cards are not limited to simple display output?',
         'options': [
           'True',
           'False',
