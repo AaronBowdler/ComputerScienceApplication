@@ -57,7 +57,7 @@ $('#quiz').quiz({
           'Simplex'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Good job, that was obvious.',
+        'correctResponse': 'Choose the longest answer, good tactic!',
         'incorrectResponse': 'Well, at least you tried.'
       },
       {
@@ -68,8 +68,8 @@ $('#quiz').quiz({
           'The paper and ink that you put into the printer'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Well done!',
+        'incorrectResponse': 'No worrries, theres still more questions which you can get right!'
       },
       {
         'q': 'What type of machines used to help people in the early mechanical tools?',
@@ -79,19 +79,19 @@ $('#quiz').quiz({
           'Printing Machines'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Who would know that calculators are the grandfathers of all computers?',
+        'incorrectResponse': 'Please dont tell me you clicked, "Time Machines"?'
       },
       {
-        'q': 'True or False “Most video cards are not limited to simple display output?',
+        'q': 'True or False "+Most video cards are not limited to simple display output?',
         'options': [
           'True',
           'False',
           'Not Mentioned'
         ],
         'correctIndex': 2,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Good memory!',
+        'incorrectResponse': 'Actually it was not mentioned.'
       },
       {
         'q': 'Who invented the Hard drive?',
@@ -101,8 +101,8 @@ $('#quiz').quiz({
           'BBC'
         ],
         'correctIndex': 0,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Who ever gets this false is clearly joking.',
+        'incorrectResponse': 'Because of course a kids channel and a high officers like the CIA created a storage device.'
       },
       {
         'q': 'What does CSS stand for',
@@ -112,85 +112,85 @@ $('#quiz').quiz({
           'Campion Sport Session'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Good, but do you know what it does?',
+        'incorrectResponse': 'Why would a sport answer be in a website about computers.'
       },
       {
         'q': 'What is another name for hardware components of a computer?',
         'options': [
-          'Hardware Components Duh!',
+          'Hardware Components, Duh!',
           'Peripherals',
           'Input and Output Devices'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Well it was one of the titles so everyone should get that right.',
+        'incorrectResponse': 'This was a hard question.'
       },
       {
-        'q': '',
+        'q': 'What does the CPU and CU distinguish in a computer',
         'options': [
-          '',
-          '',
-          ''
+          'I/O circuitry',
+          'Main Memory',
+          'All of the above'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Technically every answer is right.',
+        'incorrectResponse': 'Well only 1/2 a mark for you.'
       },
       {
-        'q': '',
+        'q': 'What does GPU stand for?',
         'options': [
-          '',
-          '',
-          ''
+          'Graphics Power Utilities',
+          'Graphics Processing Unit',
+          'General Pressure Unit'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Good job!',
+        'incorrectResponse': 'It is a hard question so its ok that you got it wrong'
       },
       {
-        'q': '',
+        'q': 'How fast can ROM be moddified?',
         'options': [
-          '',
-          '',
-          ''
+          'Slowly',
+          'Not at all',
+          'All of the above'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Well, slowly and not at all are very similar so well done for spotting that out!',
+        'incorrectResponse': 'Only 1/2 a mark.'
       },
       {
-        'q': '',
+        'q': 'What was SSD similar to?',
         'options': [
-          '',
-          '',
-          ''
+          'Memory Sticks',
+          'CD',
+          'Graphics Card'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Well done on remembering that SSD is for storage.',
+        'incorrectResponse': 'First of all you needed to know what SSD stands for and thats Secondary Storage Device.'
       },
       {
-        'q': '',
+        'q': 'why were computers more common in the 1990s and 2000s?',
         'options': [
-          '',
-          '',
-          ''
+          'Because they were like future tech to the people then',
+          'because the cost of computers were so low',
+          'because computers were the best thing you could own at the time'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Good job, if only apple was back then selling stuff then we would all have the latest iphone.',
+        'incorrectResponse': 'Sorry to tell you this but computers were very low in price back then.'
       },
       {
-        'q': 'True or False "A Graphics Card is an expansion card which generates a feed of output images to a display"',
+        'q': 'True or False "A Graphics Card is an expansion card which generates a feed of output images to a display"?',
         'options': [
           'True',
           'False',
           'Not Mentioned'
         ],
-        'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctIndex': 0,
+        'correctResponse': 'Someone has a good memory!.',
+        'incorrectResponse': 'Better luck next time.'
       },
       {
         'q': 'What does NAS stand for?',
@@ -200,8 +200,8 @@ $('#quiz').quiz({
           'Network Attached Script'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'Good job! now what does NASA stand for?.',
+        'incorrectResponse': 'The two answers were so similar, so i can see how you got that wrong'
       },
       {
         'q': 'What does ROM stand for?',
@@ -211,19 +211,19 @@ $('#quiz').quiz({
           'Random Ordinary Memory'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctResponse': 'if you know what RAM means then you should know this.',
+        'incorrectResponse': 'They do all sound correct but it was Read Only Memory'
       },
       {
-        'q': 'What is SSD similar to?',
+        'q': 'What would you rate this site?',
         'options': [
-          'CD',
-          'Memory Stick',
-          'CSS'
+          'Amazing!',
+          'Eh, is was ok...',
+          'Terrible.'
         ],
-        'correctIndex': 1,
-        'correctResponse': 'Good job, that was obvious.',
-        'incorrectResponse': 'Well, if you don\'t include it, your computer won\'t work'
+        'correctIndex': 0,
+        'correctResponse': 'Thank you, your too kind.',
+        'incorrectResponse': 'Close this down...and never come back...'
       }
     ]
   });
