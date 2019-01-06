@@ -91,9 +91,9 @@
         quizHtml += '<div id="quiz-controls">';
         quizHtml += '<p id="quiz-response"></p>';
         quizHtml += '<div id="quiz-buttons">';
-        quizHtml += '<a href="#" id="quiz-next-btn">' + nextButtonText + '</a>';
-        quizHtml += '<a href="#" id="quiz-finish-btn">' + finishButtonText + '</a>';
-        quizHtml += '<a href="#" id="quiz-restart-btn">' + restartButtonText + '</a>';
+        quizHtml += '<a href="#" id="quiz-next-btn" class="btn btn-primary">' + nextButtonText + '</a>';
+        quizHtml += '<a href="#" id="quiz-finish-btn" class="btn btn-primary">' + finishButtonText + '</a>';
+        quizHtml += '<a href="#" id="quiz-restart-btn" class="btn btn-primary">' + restartButtonText + '</a>';
         quizHtml += '</div>';
         quizHtml += '</div>';
 
@@ -129,12 +129,14 @@
           correct = questions[currentQuestionIndex].correctIndex;
 
         if (selected === correct) {
-          $answerEl.addClass('correct');
+          $answerEl.addClass('text-success');
           response = questions[currentQuestionIndex].correctResponse;
+          $('#quiz-response').removeClass('alert-danger').addClass('alert alert-success');
           score++;
         } else {
-          $answerEl.addClass('incorrect');
+          $answerEl.addClass('text-danger');
           response = questions[currentQuestionIndex].incorrectResponse;
+          $('#quiz-response').removeClass('alert-success').addClass('alert alert-danger');
           if (!base.options.allowIncorrect) {
             base.methods.gameOver(response);
             return;
