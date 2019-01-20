@@ -72,11 +72,11 @@
         $.each(questions, function(i, question) {
           quizHtml += '<div class="question-container">';
           quizHtml += '<p class="question">' + question.q + '</p>';
-          quizHtml += '<ul class="answers">';
+          quizHtml += '<div class="list-group answers">';
           $.each(question.options, function(index, answer) {
-            quizHtml += '<li><a href="#" data-index="' + index + '">' + answer + '</a></li>';
+            quizHtml += '<a href="#" class="list-group-item list-group-item-action" data-index="' + index + '">' + answer + '</a>';
           });
-          quizHtml += '</ul>';
+          quizHtml += '</div>';
           quizHtml += '</div>';
         });
         quizHtml += '</div>';
