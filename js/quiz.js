@@ -133,7 +133,7 @@ $('#quiz').quiz({
           'Main Memory',
           'All of the above'
         ],
-        'correctIndex': 1,
+        'correctIndex': 2,
         'correctResponse': 'Technically every answer is right.',
         'incorrectResponse': 'Well only 1/2 a mark for you.'
       },
@@ -155,7 +155,7 @@ $('#quiz').quiz({
           'Not at all',
           'All of the above'
         ],
-        'correctIndex': 1,
+        'correctIndex': 2,
         'correctResponse': 'Well, slowly and not at all are very similar so well done for spotting that out!',
         'incorrectResponse': 'Only 1/2 a mark.'
       },
@@ -166,7 +166,7 @@ $('#quiz').quiz({
           'CD',
           'Graphics Card'
         ],
-        'correctIndex': 1,
+        'correctIndex': 0,
         'correctResponse': 'Well done on remembering that SSD is for storage.',
         'incorrectResponse': 'First of all you needed to know what SSD stands for and thats Secondary Storage Device.'
       },
